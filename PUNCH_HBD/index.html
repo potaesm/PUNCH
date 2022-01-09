@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>PUNCH</title>
+    <base href="./">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Itim&subset=thai,latin' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <h1>สุขสันต์วันเกิดค้าบ อ้วนอ้วน</h1>
+    <canvas id="birthday"></canvas>
+    <div *ngIf="isShowLoading" class="modal">
+        <div class="modal-content">
+            <div class="birthday-card">
+                <div class="card">
+                    <div class="cake">
+                        <div class="cake-bottom"></div>
+                        <div class="cake-middle"></div>
+                        <div class="cake-top"></div>
+                        <div class="candle"></div>
+                        <div class="flame"></div>
+                        <div class="shadow"></div>
+                    </div>
+                    <div class="confetti">
+                        <div class="squareOne"></div>
+                        <div class="squareTwo"></div>
+                        <div class="squareThree"></div>
+                        <div class="squareFour"></div>
+                        <div class="squareFive"></div>
+                        <div class="squareSix"></div>
+                        <div class="squareSeven"></div>
+                        <div class="squareEight"></div>
+                        <div class="squareNine"></div>
+                        <div class="squareTen"></div>
+                    </div>
+                    <div class="text">ขอให้เจอแต่เรื่องดี ๆ นะ</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="scripts.js"></script>
+</body>
+
+</html>
